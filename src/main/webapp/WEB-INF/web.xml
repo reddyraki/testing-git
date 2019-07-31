@@ -1,0 +1,34 @@
+<web-app>
+	<servlet>
+		<servlet-name>test</servlet-name>
+		<servlet-class>com.registration.RegistrationServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>test</servlet-name>
+		<url-pattern>/TestAction</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>csk</servlet-name>
+		<servlet-class>com.registration.LoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>csk</servlet-name>
+		<url-pattern>/LoginUser</url-pattern>
+		
+		
+		
+		
+		
+	</servlet-mapping>
+	
+	
+
+	<welcome-file-list>
+		<welcome-file>Home.jsp </welcome-file>
+
+	</welcome-file-list>
+
+</web-app>
